@@ -70,6 +70,8 @@ dnsDomainIs(host, "sharepointonline.com")||
 dnsDomainIs(host, ".sharepointonline.com")||
 dnsDomainIs(host, "1drv.ms")||
 dnsDomainIs(host, ".1drv.ms")||
+dnsDomainIs(host, "spotify.com")||
+dnsDomainIs(host, ".spotify.com")||
 dnsDomainIs(host, "github.com"))
 {
 return "DIRECT";
