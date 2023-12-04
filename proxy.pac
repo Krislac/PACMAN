@@ -58,6 +58,16 @@ dnsDomainIs(host, "calculator.apps.chrome")||
 dnsDomainIs(host, "canvas.apps.chrome")||
 dnsDomainIs(host, ".githubusercontent.com")||
 dnsDomainIs(host, ".github.com")||
+dnsDomainIs(host, "microsoftpersonalcontent.com")||
+dnsDomainIs(host, ".microsoftpersonalcontent.com")||
+dnsDomainIs(host, "onedrive.com")||
+dnsDomainIs(host, ".onedrive.com")||
+dnsDomainIs(host, "msocdn.com")||
+dnsDomainIs(host, ".msocdn.com")||
+dnsDomainIs(host, "sfx.ms")||
+dnsDomainIs(host, ".sfx.ms")||
+dnsDomainIs(host, "sharepointonline.com")||
+dnsDomainIs(host, ".sharepointonline.com")||
 dnsDomainIs(host, "github.com"))
 {
 return "DIRECT";
