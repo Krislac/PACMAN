@@ -1,10 +1,5 @@
 function FindProxyForURL(url, host){
 
-if(dnsDomainIs(host, "onet.pl"))
-{
-    return "PROXY localhost:443";
-}
-
 //bypass proxy for these domains
 if (dnsDomainIs(host, ".ampproject.org")||
 dnsDomainIs(host, ".cdn.ampproject.org")||
@@ -38,7 +33,9 @@ dnsDomainIs(host, ".azureedge.net")||
 dnsDomainIs(host, ".msftauth.net")||
 dnsDomainIs(host, ".live.net")||
 dnsDomainIs(host, "calculator.apps.chrome")||
-dnsDomainIs(host, "canvas.apps.chrome"))
+dnsDomainIs(host, "canvas.apps.chrome")||
+dnsDomainIs(host, "githubusercontent.com")||
+dnsDomainIs(host, "github.com/"))
 {
 return "DIRECT";
 }
