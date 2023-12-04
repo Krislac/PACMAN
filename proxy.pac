@@ -68,6 +68,8 @@ dnsDomainIs(host, "sfx.ms")||
 dnsDomainIs(host, ".sfx.ms")||
 dnsDomainIs(host, "sharepointonline.com")||
 dnsDomainIs(host, ".sharepointonline.com")||
+dnsDomainIs(host, "1drv.ms")||
+dnsDomainIs(host, ".1drv.ms")||
 dnsDomainIs(host, "github.com"))
 {
 return "DIRECT";
