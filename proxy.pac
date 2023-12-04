@@ -34,8 +34,8 @@ dnsDomainIs(host, ".msftauth.net")||
 dnsDomainIs(host, ".live.net")||
 dnsDomainIs(host, "calculator.apps.chrome")||
 dnsDomainIs(host, "canvas.apps.chrome")||
-dnsDomainIs(host, "githubusercontent.com")||
-dnsDomainIs(host, "github.com/"))
+dnsDomainIs(host, ".githubusercontent.com")||
+dnsDomainIs(host, ".github.com"))
 {
 return "DIRECT";
 }
