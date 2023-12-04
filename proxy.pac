@@ -5,10 +5,13 @@ if (dnsDomainIs(host, ".ampproject.org")||
 dnsDomainIs(host, ".cdn.ampproject.org")||
 dnsDomainIs(host, ".fonts.gstatic.com")||
 dnsDomainIs(host, ".gmail.com")||
+dnsDomainIs(host, "gmail.com")||
 dnsDomainIs(host, ".googleusercontent.com")||
 dnsDomainIs(host, ".gstatic.com")||
-dnsDomainIs(host, ".mail.google.com")||
-dnsDomainIs(host, ".mail.google.pl")||
+dnsDomainIs(host, ".google.com")||
+dnsDomainIs(host, ".google.pl")||
+dnsDomainIs(host, "google.com")||
+dnsDomainIs(host, "google.pl")||
 dnsDomainIs(host, ".mee2.macmillan.education")||
 dnsDomainIs(host, "duolingo.com")||
 dnsDomainIs(host, ".duolingo.com")||
@@ -35,7 +38,8 @@ dnsDomainIs(host, ".live.net")||
 dnsDomainIs(host, "calculator.apps.chrome")||
 dnsDomainIs(host, "canvas.apps.chrome")||
 dnsDomainIs(host, ".githubusercontent.com")||
-dnsDomainIs(host, ".github.com"))
+dnsDomainIs(host, ".github.com")||
+dnsDomainIs(host, "github.com"))
 {
 return "DIRECT";
 }
