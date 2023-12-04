@@ -72,6 +72,14 @@ dnsDomainIs(host, "1drv.ms")||
 dnsDomainIs(host, ".1drv.ms")||
 dnsDomainIs(host, "spotify.com")||
 dnsDomainIs(host, ".spotify.com")||
+dnsDomainIs(host, "spotifycdn.com")||
+dnsDomainIs(host, ".spotifycdn.com")||
+dnsDomainIs(host, "google-analytics.com")||
+dnsDomainIs(host, ".google-analytics.com")||
+dnsDomainIs(host, "googletagmanager.com")||
+dnsDomainIs(host, ".googletagmanager.com")||
+dnsDomainIs(host, "scdn.co")||
+dnsDomainIs(host, ".scdn.co")||
 dnsDomainIs(host, "github.com"))
 {
 return "DIRECT";
